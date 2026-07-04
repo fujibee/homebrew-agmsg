@@ -1,11 +1,12 @@
 # homebrew-agmsg
 
-Homebrew tap.
+Homebrew tap for the [agmsg desktop app](https://github.com/fujibee/agmsg).
 
 ```
 brew tap fujibee/agmsg
+brew trust fujibee/agmsg
 brew install --cask agmsg
 ```
 
-Cask formula is a placeholder until the first release ships — see
-`Casks/agmsg.rb`.
+(`brew trust` is required on recent Homebrew versions, which refuse to load
+casks from untrusted third-party taps.)
