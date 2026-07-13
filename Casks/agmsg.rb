@@ -1,6 +1,6 @@
 cask "agmsg" do
-  version "0.1.4"
-  sha256 "5f092c82b0237786512917bfc5db221b090c9e0bc2de9239bdf02f632257b726"
+  version "0.1.5"
+  sha256 "b7295966b2d19eca0054d519b569747360913903a74552069d8569c2d1b638e1"
 
   url "https://github.com/fujibee/agmsg/releases/download/app-v#{version}/agmsg_#{version}_aarch64.dmg"
   name "agmsg"
