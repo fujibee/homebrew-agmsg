@@ -1,13 +1,12 @@
 cask "agmsg" do
-  version "0.4.0"
-  sha256 "0be8314ee1093cae4b830e4c4572ef56e4c2e3a213a180cf0e0656413f82ea2a"
+  version "0.5.0"
+  sha256 "99bb0943b992e70f748004b1d7707f02528fa134f17758c4ff9aab4c964a7e86"
 
-  url "https://github.com/fujibee/agmsg/releases/download/app-v#{version}/agmsg_#{version}_aarch64.dmg"
+  url "https://github.com/fujibee/agmsg/releases/download/app-v#{version}/agmsg_#{version}_universal.dmg"
   name "agmsg"
   desc "Agent messaging desktop app"
   homepage "https://agmsg.cc/"
 
-  depends_on arch: :arm64
 
   app "agmsg.app"
 
